@@ -11,7 +11,7 @@ import android.widget.EditText;
 public class ArtActivity extends AppCompatActivity {
 
 
-    Button artdetails,review,artistlist;
+    Button review,artistlist;
     int art_id;
     String nameofart;
     @Override
@@ -27,11 +27,11 @@ public class ArtActivity extends AppCompatActivity {
             nameofart =i.getStringExtra("NAMEOFART");
         }
 
-        artdetails = findViewById(R.id.artdetail);
+        //artdetails = findViewById(R.id.artdetail);
         review =findViewById(R.id.review);
         artistlist = findViewById(R.id.artt);
 
-        artdetails.setOnClickListener(new View.OnClickListener() {
+        /*artdetails.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent myIntent = new Intent(ArtActivity.this, ArtDetailsActivity.class);
@@ -43,7 +43,7 @@ public class ArtActivity extends AppCompatActivity {
                 startActivity(myIntent);
             }
 
-        });
+        });*/
 
         review.setOnClickListener(new View.OnClickListener() {
             @Override

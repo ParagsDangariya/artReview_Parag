@@ -10,7 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".ArtDetailsActivity"></activity>
         <activity android:name=".ArtistlistActivity" />
         <activity android:name=".ReviewActivity" />
         <activity android:name=".ArtActivity" />
